@@ -11,7 +11,7 @@ public class paresImpares{
             System.out.print("Introduce otro número entero mayor que el anterior: ");
             num2 = scan.nextInt();
             if (num1 >= num2) 
-                System.out.println("El segundo número debe ser mayor que el primero");                  
+                System.out.println("El segundo número debe ser estrictamente mayor que el primero");                  
         
 
         System.out.println("\nNúmeros pares desde " + num1 + " hasta " + num2 + " : ");
